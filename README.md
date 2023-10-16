@@ -7,7 +7,7 @@
 - Classic Matching Game with a timer, maximum number of wrong moves, and options for what style of icons
 - If any of the icons aren't available on the laptop the game is being run on, it switches to letters/numbers as icon style options
 
-## File 2: [McMaster_Grades.py](McMaster_Grades_App/McMaster_Grades.py/McMaster_Grades.py/McMaster_Grades.java)
+## File 2: [McMaster_Grades.py](McMaster_Grades_App/McMaster_Grades.py/McMaster_Grades.py)
 
 - 2023 Personal Project
 - Splash screen to login then a loading screen while selenium runs in background
