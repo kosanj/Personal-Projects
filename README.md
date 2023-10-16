@@ -1,7 +1,7 @@
 # Completed-Projects
 
 File Structure:
-[a relative link](MatchingGame.java)
+[a relative link](Java GUIs/MatchingGame.java)
 
 ## File 1: MatchingGame.java
 
