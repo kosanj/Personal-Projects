@@ -1,0 +1,4 @@
+([('McMaster_Grades',
+   '/Users/anjalikosuri/Documents/Coding Projects/Mosaic Grades App/McMaster '
+   'Grades App /dist/McMaster_Grades',
+   'EXECUTABLE')],)

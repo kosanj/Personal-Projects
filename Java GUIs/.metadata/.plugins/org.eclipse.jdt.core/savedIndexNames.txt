@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/anjalikosuri/Documents/Coding Projects/Grade 12 Java/.metadata/.plugins/org.eclipse.jdt.core
+3866364271.index
+2888586291.index
