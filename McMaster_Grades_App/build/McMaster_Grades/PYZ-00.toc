@@ -1,5 +1,5 @@
 ('/Users/anjalikosuri/Documents/Coding Projects/Mosaic Grades App/McMaster '
- 'Grades App /build/McMaster_Grades/PYZ-00.pyz',
+ 'Grades App - v3/build/McMaster_Grades/PYZ-00.pyz',
  [('OpenSSL',
    '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/OpenSSL/__init__.py',
    'PYMODULE'),

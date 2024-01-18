@@ -142,6 +142,7 @@ def set_login_details(entry1, entry2):
 def main():
     
     #SELENIUM: Set up driver and open URL
+    #driver_path = '/Users/anjalikosuri/Documents/Coding Projects/chromedriver_mac_arm64/chromedriver'   #driver path
     driver_path = ChromeDriverManager().install() #driver path - using an driver manager library instead so chrome driver is always compatible with the version of chrome we have
     s=Service(driver_path)
     options = Options();                                                                #driver options - headless means chrome will run without opening 
@@ -226,7 +227,22 @@ def main():
     nxxt.click()
     update_progress_bar(prog_bar)
 
+    #SELENIUM: Sometimes it auto-opens to the most recent term rather than term selection page. Hit enter to close the alert message then press the button to go to the term selection page
+    actions = ActionChains(driver)
+    time.sleep(.5)
+    actions.send_keys(Keys.RETURN)  # Simulate pressing the return key
+    actions.perform()
+    try:
+        iframe = driver.find_element_by_xpath("/html/body/div[4]/div[1]/iframe")
+        driver.switch_to.frame(iframe)
+        changeTerm = driver.find_element_by_name("DERIVED_SSS_SCT_SSS_TERM_LINK")
+        changeTerm.click()
+    except:
+        pass
+
     #SELENIUM: Switch to frame of table
+    driver.switch_to.default_content()
+    time.sleep(0.5)
     iframe = driver.find_element_by_xpath("/html/body/div[4]/div[1]/iframe")
     driver.switch_to.frame(iframe)
     update_progress_bar(prog_bar)
@@ -238,6 +254,7 @@ def main():
     #GUI: window has options for terms
     second_column = driver.find_elements_by_xpath("//table[@class='PSLEVEL2GRIDWBO']//tr/td[2]") #get data
     column_data = [cell.text for cell in second_column]
+    print(column_data)
     
     option_frame = tk.Frame(master=window, width=100, height = 20)
     option_frame.pack(pady=100, ipadx = 100, ipady = 50)
