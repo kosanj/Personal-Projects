@@ -23,3 +23,8 @@
 - Can scroll down to go back and select another term
 
 <img width="145" alt="Screen Shot 2023-10-18 at 12 36 12 PM" src="https://github.com/kosanj/Completed-Projects/assets/148008365/363c7659-2295-4161-9d4b-d9375f89fca6">
+
+## Project 4: [Invoice_Reciept_Classifier.ipynb](Pytorch%20Image%20Classification%20Model/Invoice_Reciept_Classifier.ipynb)
+
+- 2024 Personal Project
+- Pytorch used to create a model that can classify whether an image shows a receipts or an invoice
