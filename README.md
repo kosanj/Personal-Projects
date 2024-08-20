@@ -27,4 +27,4 @@
 ## Project 4: [Invoice_Reciept_Classifier.ipynb](Pytorch%20Image%20Classification%20Model/Invoice_Reciept_Classifier.ipynb)
 
 - 2024 Personal Project
-- Pytorch used to create a model that can classify whether an image shows a receipts or an invoice
+- Pytorch used to create a model that can classify whether an image shows a receipt or an invoice
