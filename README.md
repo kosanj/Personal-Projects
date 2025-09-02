@@ -1,4 +1,4 @@
-# Completed-Projects
+# Personal Projects
 
 ## Project 1: [Invoice_Reciept_Classifier.ipynb](Pytorch%20Image%20Classification%20Model/Invoice_Reciept_Classifier.ipynb)
 
