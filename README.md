@@ -1,30 +1,58 @@
 # Personal Projects
 
+---
+
 ## Project 1: [Invoice_Reciept_Classifier.ipynb](Pytorch%20Image%20Classification%20Model/Invoice_Reciept_Classifier.ipynb)
 
-- 2024 Personal Project
-- Pytorch used to create a model that can classify whether an image shows a receipt or an invoice
+- **Year:** 2024  
+- **Description:** Pytorch model to classify whether an image shows a receipt or an invoice.
+
+---
 
 ## Project 2: [McMaster_Grades.py](McMaster_Grades_App/McMaster_Grades.py)
 
-- 2023 Personal Project
-- Splash screen to login then a loading screen while selenium runs in background
-- User can select term for what grades to view
-- Grades are displayed both numerically and with a "circular progress bar" style visual
-- Can scroll down to go back and select another term
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
-<img width="145" alt="Screen Shot 2023-10-18 at 12 36 12 PM" src="https://github.com/kosanj/Completed-Projects/assets/148008365/363c7659-2295-4161-9d4b-d9375f89fca6">
+<div>
+
+- **Year:** 2023  
+- **Description:**  
+  - Splash screen for login, then a loading screen while Selenium runs in the background  
+  - User can select the term for which grades are displayed  
+  - Grades are shown both numerically and visually with a circular progress bar  
+  - Scroll down to select another term  
+
+</div>
+
+<div>
+<img src="https://github.com/kosanj/Completed-Projects/assets/148008365/363c7659-2295-4161-9d4b-d9375f89fca6" alt="McMaster Grades App Screenshot" width="250">
+</div>
+
+</div>
+
+---
 
 ## Project 3: [TicTacToe.java](Java%20GUIs/TicTacToe.java)
 
-- 2021 Personal Project
-- GUI using Java GridBagLayout to format
-- Classic Tic Tac Toe to play as either 1-player against a CPU or 2-player.
-- Single player modes include: easy (CPU doesn't use logic), medium (CPU uses defensive logic), hard (CPU uses both offensive and defensive logic), impossible (CPU uses offensive and defensive logic as well as preemptively blocking potential double traps)
+- **Year:** 2021  
+- **Description:**  
+  - GUI using Java GridBagLayout  
+  - Classic Tic Tac Toe game for 1-player (vs CPU) or 2-player modes  
+  - **Single player difficulty levels:**  
+    - Easy: CPU does not use logic  
+    - Medium: CPU uses defensive logic  
+    - Hard: CPU uses both offensive and defensive logic  
+    - Impossible: CPU uses offensive and defensive logic and preemptively blocks potential double traps
+
+---
 
 ## Project 4: [MatchingGame.java](Java%20GUIs/MatchingGame.java)
 
-- 2021 Personal Project
-- GUI using Java GridBagLayout to format
-- Classic Matching Game with a timer, maximum number of wrong moves, and options for what style of icons
-- If any of the icons aren't available on the laptop the game is being run on, it switches to letters/numbers as icon style options
+- **Year:** 2021  
+- **Description:**  
+  - GUI using Java GridBagLayout  
+  - Classic Matching Game with:  
+    - Timer  
+    - Maximum number of wrong moves  
+    - Options for different icon styles  
+  - Automatically switches to letters/numbers if icons are unavailable on the system
