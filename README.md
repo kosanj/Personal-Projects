@@ -5,6 +5,7 @@
 ## Project 1: [Invoice_Reciept_Classifier.ipynb](Pytorch%20Image%20Classification%20Model/Invoice_Reciept_Classifier.ipynb)
 
 - **Year:** 2024  
+- **Tech Stack:** Python, PyTorch  
 - **Description:** Pytorch model to classify whether an image shows a receipt or an invoice.
 
 ---
@@ -16,6 +17,7 @@
 <div>
 
 - **Year:** 2023  
+- **Tech Stack:** Python, Selenium  
 - **Description:**  
   - Splash screen for login, then a loading screen while Selenium runs in the background  
   - User can select the term for which grades are displayed  
@@ -35,9 +37,9 @@
 ## Project 3: [TicTacToe.java](Java%20GUIs/TicTacToe.java)
 
 - **Year:** 2021  
+- **Tech Stack:** Java  
 - **Description:**  
-  - GUI using Java GridBagLayout  
-  - Classic Tic Tac Toe game for 1-player (vs CPU) or 2-player modes  
+  - GUI for Tic Tac Toe game with 1-player (vs CPU) or 2-player modes  
   - **Single player difficulty levels:**  
     - Easy: CPU does not use logic  
     - Medium: CPU uses defensive logic  
@@ -49,9 +51,9 @@
 ## Project 4: [MatchingGame.java](Java%20GUIs/MatchingGame.java)
 
 - **Year:** 2021  
+- **Tech Stack:** Java  
 - **Description:**  
-  - GUI using Java GridBagLayout  
-  - Classic Matching Game with:  
+  - GUI for a classic Matching Game with:  
     - Timer  
     - Maximum number of wrong moves  
     - Options for different icon styles  
