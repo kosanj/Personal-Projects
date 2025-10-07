@@ -1,2 +1,3 @@
 xref-McMaster_Grades.html linguist-vendored=true
+*.toc linguist-vendored=true
 *.ipynb linguist-language=Python
