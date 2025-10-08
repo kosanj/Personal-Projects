@@ -44,7 +44,7 @@
     - Easy: CPU does not use logic  
     - Medium: CPU uses defensive logic  
     - Hard: CPU uses both offensive and defensive logic  
-    - Impossible: CPU uses offensive and defensive logic and preemptively blocks potential double traps
+    - Impossible: CPU uses offensive and defensive logic and preemptively blocks potential double traps such that it is impossible to win.
 
 ---
 
